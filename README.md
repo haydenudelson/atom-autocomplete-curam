@@ -7,7 +7,7 @@ UIM tag autocomplete package for Atom text editor.
 ## Features
 
 * Autocomplete UIM element tags
-* Autocomplete suggestions include brief description of element and link to IBM development guide for more information
+* Autocomplete suggestions include brief description of element and link to [IBM development guide](https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1UimReferenceForPagesViews1.html) for more information
 * Fills tags with required attributes
 * Use tab button to navigate to next generated attribute
 
