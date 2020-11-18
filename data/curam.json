@@ -1,0 +1,229 @@
+[
+  {
+		"displayText": "ACTION_CONTROL",
+		"description": "The ACTION_CONTROL element defines a link (text based), button or file download link that the user can activate on a page.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Actioncontrol1.html",
+    "requiredAttributes": [
+      "LABEL"
+    ]
+	},
+  {
+    "displayText": "ACTION_SET",
+    "description": "The ACTION_SET element groups a number of ACTION_CONTROL elements together.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Actionset1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "CLUSTER",
+    "description": "The CLUSTER element defines a group of input and/or output fields containing data from any data source and supplying data to other data targets.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Cluster1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "CONDITION",
+    "description": "The CONDITION element represents the condition under which an ACTION_SET, ACTION_CONTROL, LIST, or a CLUSTER is displayed.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Condition1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "CONNECT",
+    "description": "The CONNECT element defines a data connection between two connection end points.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Connect1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "CONTAINER",
+    "description": "The CONTAINER element groups FIELD, ACTION_CONTROL and IMAGE elements so that they can be used in a single cell of a CLUSTER or LIST element.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Container1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "DETAILS_ROW",
+    "description": "The DETAILS_ROW element is used within a LIST element to enable each row to be expanded to show more details about the row.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Detailsrow1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "DESCRIPTION",
+    "description": "The DESCRIPTION element defines the description associated with a PAGE_TITLE, CLUSTER or LIST element.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Description1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "FIELD",
+    "description": "The FIELD element specifies a data value to be displayed in a CLUSTER, a value to be retrieved from the user via an input control in a CLUSTER, or a list of data values to be displayed in a LIST column.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Field1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "FOOTER_ROW",
+    "description": "The FOOTER_ROW element is used to define a single footer row at the end of a list.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Footerrow1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "IMAGE",
+    "description": "The IMAGE element inserts an image into a CONTAINER.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Image1.html",
+    "requiredAttributes": [
+      "IMAGE",
+      "LABEL",
+      "STYLE"
+    ]
+  },
+  {
+    "displayText": "INCLUDE",
+    "description": "The INCLUDE element indicates that the elements within an external UIM view document should be included at this position in the page.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Include1.html",
+    "requiredAttributes": [
+      "FILE_NAME"
+    ]
+  },
+  {
+    "displayText": "INITIAL",
+    "description": "The INITIAL element is only valid within a CONNECT element contained in a FIELD element.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Initial1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "INFORMATIONAL",
+    "description": "The INFORMATIONAL element is used to display informational messages returned from the server.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Informational1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "INLINE_PAGE",
+    "description": "The INLINE_PAGE element is used to display the contents of one UIM page in-line in another.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Inlinepage1.html",
+    "requiredAttributes": [
+      "PAGE_ID"
+    ]
+  },
+  {
+    "displayText": "IS_FALSE",
+    "description": "A Boolean test to evaluate if the parent CONDITION succeeds or fails.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Isfalse1.html",
+    "requiredAttributes": [
+      "NAME",
+      "PROPERTY"
+    ]
+  },
+  {
+    "displayText": "IS_TRUE",
+    "description": "A Boolean test to evaluate if the parent CONDITION succeeds or fails.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Istrue1.html",
+    "requiredAttributes": [
+      "NAME",
+      "PROPERTY"
+    ]
+  },
+  {
+    "displayText": "JSP_SCRIPTLET",
+    "description": "The JSP_SCRIPTLET element defines JSP scriptlet code that should be inserted into the page at that point relative to any other LIST or CLUSTER elements.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Jspscriptlet1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "LABEL",
+    "description": "The LABEL element can be used as a child element of FIELD to construct a label by concatenating multiple values.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Label1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "LINK",
+    "description": "The LINK element specifies the page to go to after an action phase.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Link1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "LIST",
+    "description": "The LIST element defines the layout of a control used to display lists of data.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1List1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "MENU",
+    "description": "The MENU element is used to define six types of menus in a Cúram client application.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Menu1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "PAGE",
+    "description": "The PAGE element is the root element of a UIM document that describes the data to be included in a generated JSP page.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Page1.html",
+    "requiredAttributes": [
+      "PAGE_ID"
+    ]
+  },
+  {
+    "displayText": "PAGE_PARAMETER",
+    "description": "The PAGE_PARAMETER element declares a parameter to the current page.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Pageparameter1.html",
+    "requiredAttributes": [
+      "NAME"
+    ]
+  },
+  {
+    "displayText": "PAGE_TITLE",
+    "description": "The PAGE_TITLE element defines the title that appears at the top of a page's main content area.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Pagetitle1.html",
+    "requiredAttributes": [
+      ""
+    ]
+  },
+  {
+    "displayText": "SCRIPT",
+    "description": "The SCRIPT element defines an exit point to allow the invocation of a script (JavaScript) in response to an event.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Script1.html",
+    "requiredAttributes": [
+      "EVENT",
+      "ACTION"
+    ]
+  },
+  {
+    "displayText": "SERVER_INTERFACE",
+    "description": "The SERVER_INTERFACE element defines a server interface to which other elements of the page can connect.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Serverinterface1.html",
+    "requiredAttributes": [
+      "NAME",
+      "CLASS",
+      "OPERATION"
+    ]
+  },
+  {
+    "displayText": "SOURCE",
+    "description": "The SOURCE element defines the source end-point of a data connection.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Source1.html",
+    "requiredAttributes": [
+      "NAME",
+      "PROPERTY"
+    ]
+  },
+  {
+    "displayText": "TAB_NAME",
+    "description": "The TAB_NAME element defines the text used for the tab in the tab bar.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Tabname1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "TARGET",
+    "description": "The TARGET element defines the target end-point of a data connection.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Target1.html",
+    "requiredAttributes": [
+      "NAME",
+      "PROPERTY"
+    ]
+  },
+  {
+    "displayText": "TITLE",
+    "description": "The TITLE element defines the title that appears at the top of a CLUSTER or LIST element.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1Title1.html",
+    "requiredAttributes": []
+  },
+  {
+    "displayText": "VIEW",
+    "description": "The VIEW element is the root element of a UIM document that defines elements to be included in a UIM page document.",
+    "descriptionMoreURL": "https://www.ibm.com/support/knowledgecenter/en/SS8S5A_7.0.4/com.ibm.curam.content.doc/WebClientReference/r_WEBCREF_Reference1View1.html",
+    "requiredAttributes": []
+  }
+]

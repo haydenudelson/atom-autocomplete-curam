@@ -1,0 +1,24 @@
+{
+  "name": "autocomplete-curam",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Autocomplete package for UIM files in IBM Curam",
+  "keywords": [
+    "autocomplete",
+    "curam",
+    "xml",
+    "uim"
+  ],
+  "repository": "",
+  "author": "Hayden Udelson <hayden_udelson@redmane.com> (https://www.linkedin.com/in/haydenudelson/)",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
