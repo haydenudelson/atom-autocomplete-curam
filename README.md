@@ -2,6 +2,8 @@
 
 UIM tag autocomplete package for Atom text editor.
 
+![](data/atomexamplegif.gif)
+
 ## Features
 
 * Autocomplete UIM element tags
