@@ -1,4 +1,4 @@
-# Autocomplete Curam UIM Atom Package
+# autocomplete-curam Atom Package
 
 UIM tag autocomplete package for Atom text editor.
 
