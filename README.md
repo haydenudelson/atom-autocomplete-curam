@@ -19,5 +19,5 @@ UIM tag autocomplete package for Atom text editor.
 ## Use
 
 * Open a UIM file in Atom
-* Indicate `text.xml` grammar type by typing <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>L</kbd>
+* Indicate `text.xml` grammar type by typing <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>L</kbd> and searching "XML"
 * Begin editing UIM files!
