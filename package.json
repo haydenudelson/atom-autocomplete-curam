@@ -9,7 +9,7 @@
     "xml",
     "uim"
   ],
-  "repository": "",
+  "repository": "https://github.com/haydenudelson/atom-autocomplete-curam",
   "author": "Hayden Udelson <hayden_udelson@redmane.com> (https://www.linkedin.com/in/haydenudelson/)",
   "engines": {
     "atom": ">=1.15.0 <2.0.0"
