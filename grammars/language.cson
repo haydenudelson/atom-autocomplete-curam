@@ -1,0 +1,10 @@
+name: 'UIM'
+scopeName: 'text.xml.uim'
+type: 'text-mate'
+parser: 'fast-xml-parser'
+fileTypes:[
+  'uim',
+  'vim'
+]
+
+'patterns': [{ include: 'text.xml'}]
